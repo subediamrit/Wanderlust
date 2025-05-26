@@ -1,0 +1,35 @@
+
+> frontend@0.0.0 dev
+> vite --host
+
+
+  VITE v4.5.3  ready in 259 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.120:5173/
+12:25:17 PM [vite] .env.local changed, restarting server...
+12:25:17 PM [vite] server restarted.
+
+> frontend@0.0.0 dev
+> vite --host
+
+
+  VITE v4.5.3  ready in 473 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.81.41:5173/
+8:31:02 AM [vite] .env.local changed, restarting server...
+8:31:02 AM [vite] server restarted.
+8:47:20 AM [vite] page reload dist/index.html
+8:49:14 AM [vite] .env.local changed, restarting server...
+8:49:14 AM [vite] server restarted.
+8:52:51 AM [vite] page reload dist/index.html
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v4.5.3  ready in 903 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
