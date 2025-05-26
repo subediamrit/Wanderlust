@@ -22,7 +22,7 @@ COPY --from=frontend-builder /app/dist /app/node_modules /usr/share/nginx/html
 # Copy custom nginx config 
 COPY default.conf /etc/nginx/conf.d
 
-EXPOSE 8000
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
 
