@@ -57,7 +57,7 @@ jobs:
           push: true
           tags: subediamrit22/backend2:latest
 
-  deploy-wanderlust:
+  Deploy-wanderlust:
     runs-on: ubuntu-latest
     needs: backend-build
     steps:
