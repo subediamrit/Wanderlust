@@ -61,6 +61,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: backend-build
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Check docker-compose file
+        run: ls -l ./docker-compose.yaml
+
       - name: Copy docker-compose file to remote server
         uses: appleboy/scp-action@v1
         with:
