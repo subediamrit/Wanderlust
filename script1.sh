@@ -21,8 +21,13 @@ EOF
 # Apply sysctl params without reboot
 sudo sysctl --system
 
+<<<<<<< HEAD
 ## Install CRIO Runtime ok
 sudo apt-get update -y 
+=======
+## Install CRIO Runtime
+sudo apt-get update -y
+>>>>>>> decadc9b (first commit)
 sudo apt-get install -y software-properties-common curl apt-transport-https ca-certificates gpg
 
 sudo curl -fsSL https://pkgs.k8s.io/addons:/cri-o:/prerelease:/main/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/cri-o-apt-keyring.gpg
